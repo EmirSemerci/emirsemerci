@@ -1,0 +1,29 @@
+body {
+    background-image: url('https://your-link-here.com/abstract-design.webp'); /* Resminizin URL'si */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.thankyou-container {
+    text-align: center;
+    color: rgb(0, 0, 0); /* Yazı rengini beyaz yaparak fotoğrafla kontrast oluşturur */
+    font-size: 24px;
+    padding: 20px;
+    background-color: rgba(49, 255, 52, 0.6); /* Fotoğrafın üstüne yarı saydam bir arka plan ekler */
+    border-radius: 10px; /* Kenarları yuvarlar */
+}
+
+.signature {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
